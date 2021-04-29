@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-image: url("img/background1.png");
+        }
+        .button {
+
+            background-color:red;
+            border: 5px;
+            color: white;
+            font-size: 50px;
+            font-weight: bolder;
+            padding: 15px 32px;
+            margin: 200px 500px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button onclick="startGame()" class="button">Start</button>
+</div>
+<script>
+    function startGame() {
+        window.location.href = 'game.html';
+    }
+</script>
+</body>
+</html>
